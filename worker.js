@@ -1,24 +1,11 @@
 $(document).ready(function() {
-  var findAll = $("#findAll");
-  const findOne = $("#findOne");
-  const capital = $("#capital");
-
-  const countryselect = $("#countryselect");
-  const countryNames = $("#countryNames");
-  const currencies = $("#currencies");
-
-  //   one input to fins them all
-
-  //   let countryAll = countries.map((val, index, arr) => {
-  //     return;
-  //   });
-
   //CAROUSEL
   var slideImages = [
     { src: "https://restcountries.eu/data/afg.svg" },
     { src: "https://restcountries.eu/data/afg.svg" },
     { src: "https://restcountries.eu/data/afg.svg" }
   ];
+
   //var jR3DCarousel;
 
   jR3DCarousel = $(".jR3DCarouselGallery").jR3DCarousel({
